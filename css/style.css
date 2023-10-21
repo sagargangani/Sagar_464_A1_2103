@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+header{
+    height: 40%;
+    background-color: rgb(54, 110, 89);
+    text-align: center;
+}
+
+header .logo h1{
+    color:gainsboro;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header .logo p{
+    color:gainsboro;
+    padding-bottom: 2%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+nav ul li a{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+section {
+    flex: 2;
+    /* margin-left: 10px; */
+    background-color: aquamarine;
+    padding-right: 20px;
+}
+
+section a{
+    float: left;
+}
+
+section img{
+    margin-top: 30px;
+}
+
+section h3{
+    margin-top: 20px;
+}
+aside{
+    flex:1;
+    height: 80%;
+    margin-right: 10px;
+}
+
+section table{
+    margin-top: 20px;
+}
+
+footer{
+    height: 20%;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #000;
+    padding: 10px; 
+    text-align: center;
+  }
+
+  aside ul li{
+    list-style: none;
+}
+
+aside ul li a{
+    color: #000;
+    text-decoration: none;
+  }
+
+  aside ul li a:hover{
+    color:rgb(54, 110, 89);
+  }
+
+  aside ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    background-color: rgb(54, 110, 89);
+    padding:30px 0;
+  }
+
+  .footer-content p, footer p{
+    text-align: center;
+  }
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+section{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+}
+
+ol{
+    margin-left: 15px;
+}
+
+ul li{
+    list-style: none;
+}
