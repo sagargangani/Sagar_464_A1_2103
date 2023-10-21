@@ -30,6 +30,7 @@ nav ul{
 nav ul li{
     list-style: none;
     padding-right: 10px;
+    margin-bottom: 1%;
 }
 nav ul li a{
     color: white;
@@ -47,9 +48,6 @@ section {
     padding-right: 20px;
 }
 
-section a{
-    float: left;
-}
 
 section img{
     margin-top: 30px;
@@ -168,4 +166,52 @@ ol{
 
 ul li{
     list-style: none;
+}
+
+section h2{
+    text-align: center;
+}
+
+section img{
+    display: block;
+    margin: 0 auto;
+}
+
+section a{
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section img{
+        margin: 0 auto;
+    }
+
+    section a{
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    
 }
